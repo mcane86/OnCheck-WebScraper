@@ -1,7 +1,9 @@
+package Scraper;
+
 /**
- * Created by stevejaminson on 6/14/16.
+ * Created by michaelcane on 6/21/16.
  */
-public class InspectionObject {
+public class Parser {
 
     private String entity;
     private String address;
@@ -12,7 +14,7 @@ public class InspectionObject {
     private String date;
     private String violations;
 
-    public InspectionObject(){}
+    public Parser(){}
 
     public String getEntity() {
         return entity;
